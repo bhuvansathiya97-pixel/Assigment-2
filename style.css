@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #292929;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Photo and buttons */
+.profile {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+#myPhoto {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+    background-color: white;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+
+.buttons button {
+    padding: 7px 12px;
+    margin: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 38px;
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+.role {
+    font-size: 17px;
+    font-weight: normal;
+    margin: 5px 0 10px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-top: 2px solid #8a806e;
+    padding: 12px 0;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 8px 0 14px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin: 8px 0 5px;
+    font-size: 13px;
+}
+
+.details b {
+    font-size: 15px;
+}
+
+.details span:last-child {
+    text-align: right;
+}
+
+
+.school {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+body.lime-mode {
+    background-color: #160B2B;
+    color: #BFA2FF;
+}
+
+body.lime-mode h1 {
+    color: #FF4DDE;
+    text-shadow: 0 0 10px #FF4DDE;
+}
+
+body.lime-mode h2 {
+    color: #BFA2FF;
+    border-color: #FF4DDE;
+    text-shadow: 0 0 5px #BFA2FF;
+}
+
+body.lime-mode h3 {
+    color: #FF4DDE;
+}
+
+body.lime-mode p,
+body.lime-mode b,
+body.lime-mode span,
+body.lime-mode .school {
+    color: #BFA2FF;
+}
+
+body.lime-mode .contact {
+    border-color: #FF4DDE;
+}
+
+body.lime-mode .buttons button {
+    background-color: #160B2B;
+    color: #FF4DDE;
+    border: 1px solid #FF4DDE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body.lime-mode .buttons button:hover {
+    background-color: #FF4DDE;
+    color: #160B2B;
+}

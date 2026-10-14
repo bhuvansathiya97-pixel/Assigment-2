@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bhuvan Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="resume">
+
+<div class="profile">
+
+    <img src="BHUVAN PHOTO.jpeg" id="myPhoto" alt="My Photo">
+    <div class="buttons">
+        <button id="showBtn" onclick="showPhoto()">Show Photo</button>
+        <button id="hideBtn" onclick="hidePhoto()">Hide Photo</button>
+        <button onclick="changeBackground()">Dark</button>
+    </div>
+
+</div>
+
+
+        <h1>BHUVAN S</h1>
+        <h3 class="role">ASPIRING SOFTWARE ENGINEER</h3>
+
+        <div class="contact">
+            <span>in bhuvan</span>
+            <span>+91 8667457256</span>
+            <span>bhuvansathiya97@gmail.com</span>
+            <span>bhuvansathiya97-pixel</span>
+        </div>
+
+        <h2>CAREER OBJECTIVE</h2>
+        <p>
+            Motivated and enthusiastic final-year Computer Science student
+            with a strong interest in Java Full Stack Development. Eager to
+            apply my technical knowledge, problem-solving skills, and
+            internship experience in a challenging environment. Seeking an
+            opportunity to contribute to the growth of the organization
+            while continuously learning new technologies and developing
+            my professional skills.
+        </p>
+
+        <h2>INTERNSHIP</h2>
+
+        <div class="details">
+            <b>DETQEL - MERN STACK INTERN</b>
+            <span>JULY 2025 - AUGUST 2025</span>
+        </div>
+
+        <p>
+            Learned the fundamentals of MERN Full Stack Development using
+            MongoDB, Node.js, Express.js, and React.js. Gained hands-on
+            understanding of frontend and backend integration and basic
+            web application development. Built responsive user interfaces
+            using React.js with reusable components and state management.
+            Developed RESTful APIs using Node.js and Express.js for CRUD
+            operations.
+        </p>
+
+        <div class="details">
+            <b>DLK Software Solutions - Java Full Stack intern</b>
+            <span>JUNE 2026 - JULY 2026</span>
+        </div>
+
+        <p>
+            Developed a backend application using Java and Spring Boot.
+            Built REST APIs with CRUD operations and integrated MySQL
+            using Spring Data JPA. Tested APIs using Postman and used Git
+            for version control. Designed relational database schemas
+            using MySQL. Implemented layered architecture (Controller,
+            Service, Repository) and handled exception management and
+            input validation.
+        </p>
+
+        <h2>EDUCATION</h2>
+
+        <div class="details">
+            <b>S.A Engineering College, Chennai.</b>
+            <span>August 2023 - May 2027</span>
+        </div>
+        <div class="details">
+            <span>B.E Computer Science and Engineering Semester</span>
+            <span>CGPA : 6.05 till 6th</span>
+        </div>
+
+        <div class="school">
+            <b>Sri Ram Dayal Khemka Vivekananda Vidyalaya Senior Secondary School</b>
+        </div>
+
+        <div class="details">
+            <span>Higher Secondary Certificate - 67.6%</span>
+            <span>May 2022 - May 2023</span>
+        </div>
+        <div class="details">
+            <span>Secondary School Leaving Certificate - 76.6%</span>
+            <span>April 2020 - April 2021</span>
+        </div>
+
+        <h2>SKILLS</h2>
+        <p>
+            <b>Programming languages :</b> Java, SQL<br>
+            <b>Tools:</b> Visual Studio Code (VS Code), Claude, Antigravity<br>
+            <b>Database:</b> MySQL
+        </p>
+
+        <h2>PROJECT</h2>
+
+        <p>
+            <b>1. Expense Tracker System</b><br>
+            Developed a full-stack expense management application with
+            secure REST APIs, CRUD operations, dashboard analytics,
+            search and filter functionality, responsive Bootstrap UI,
+            JWT authentication, and MySQL database integration.
+        </p>
+
+        <p>
+            <b>2. Console-Based Grocery Shopping System (Java)</b><br>
+            Developed a Java-based console application for grocery
+            billing with item selection, quantity management, and
+            automatic bill calculation. Utilized arrays, loops,
+            conditional statements, custom exception handling, Scanner,
+            and OOP concepts to create an interactive billing system.
+        </p>
+
+        <h2>CERTIFICATION</h2>
+        <p>
+            1. Front End Web Development - Infosys Springboard<br>
+            2. Html and Css - Infosys Springboard
+        </p>
+
+    </div>
+    <script>
+    function showPhoto() {
+        document.getElementById("myPhoto").style.display = "block";
+        document.getElementById("showBtn").style.display = "none";
+        document.getElementById("hideBtn").style.display = "inline-block";
+    }
+
+    function hidePhoto() {
+        document.getElementById("myPhoto").style.display = "none";
+        document.getElementById("showBtn").style.display = "inline-block";
+        document.getElementById("hideBtn").style.display = "none";
+    }
+
+    function changeBackground() {
+        document.body.classList.toggle("lime-mode");
+    }
+
+    hidePhoto();
+</script>
+
+</body>
+</html>
